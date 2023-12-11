@@ -151,6 +151,7 @@ footer {
   .detail-example-aplication div {
     gap: 0;
     margin-left: 0px;
+    padding: 50px;
   }
 
   .detail-example-aplication img {
@@ -170,6 +171,5 @@ footer {
   .detail-example-aplication div {
     gap: 0;
     margin-left: 0px;
-    padding: 50px;
   }
 }
