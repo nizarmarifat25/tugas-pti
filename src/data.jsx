@@ -10,7 +10,7 @@ const data = [
         image: img2,
         name: "Google Maps",
         understanding: "Google Maps adalah aplikasi yang sangat berguna. Google Maps dapat membantu Anda memberitahukan petunjuk arah kemana Anda harus pergi dan apa saja yang perlu Anda ketahui sebelum Anda sampai di sana. Meskipun Google Maps adalah favorit saya tetapi agak sedikit kurang praktis.",
-        function: ["menampilkan rute dan menggunakan informasi lalu lintas real-time untuk menemukan rute terbaik ke tujuan", "Pemberi Saran", "Menghitung jarak tempuh", "Share location secara Real Time"],
+        function: ["menampilkan rute dan menggunakan informasi lalu lintas real-time untuk menemukan rute terbaik ke tujuan", "Menghitung jarak tempuh", "Share location secara Real Time"],
         link: 'https://www.google.com/maps'
     },
     {
