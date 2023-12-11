@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  color: white;
+}
+
+a {
+  color: rgb(35, 191, 208) !important;
+}
+
+.container {
+  padding: 0 150px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 100vh;
+  color: #ffff;
+  background-image: linear-gradient(#044ba8, #000000);
+}
+
+.banner img {
+  left: 20px;
+  font-weight: bold;
+}
+
+.banner strong {
+  font-size: 60px;
+}
+
+.understanding {
+  background-color: black;
+}
+
+.understanding h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.understanding .column-understanding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-aplication {
+  background-color: black;
+}
+
+.example-aplication h1 {
+  font-size: 70px;
+  padding: 100px 0;
+}
+
+.image-preview {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.image-preview img {
+  width: 200px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.image-preview img.active,
+.image-preview img:hover {
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(0%);
+}
+
+.detail-example-aplication {
+  background-color: #000000;
+}
+
+.detail-example-aplication img {
+  width: 200px;
+}
+
+.detail-example-aplication div {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #001C41;
+  margin-left: 100px;
+  border-radius: 100px 0 0 0;
+  padding: 0 100px;
+  height: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #000000;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+
+  /* For tablets: */
+  .container {
+    padding: 0 50px;
+  }
+
+  .banner,
+  .column-understanding,
+  .example-aplication,
+  .detail-example-aplication div {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .banner strong {
+    font-size: 40px;
+  }
+
+  .banner .title {
+    text-align: center;
+  }
+
+  .column-understanding img,
+  .banner img {
+    width: 300px;
+  }
+
+  .understanding h1,
+  .example-aplication h1,
+  .example-aplication h1 {
+    font-size: 50px;
+  }
+
+  .image-preview {
+    gap: 20px;
+  }
+
+  .image-preview img,
+  .detail-example-aplication img {
+    width: 80px;
+  }
+
+  .detail-example-aplication div {
+    gap: 0;
+    margin-left: 0px;
+  }
+
+  .detail-example-aplication img {
+    width: 100px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .image-preview img,
+  .detail-example-aplication img {
+    width: 80px;
+  }
+
+  /* For Mobile */
+  .detail-example-aplication div {
+    gap: 0;
+    margin-left: 0px;
+    padding: 50px;
+  }
+}
